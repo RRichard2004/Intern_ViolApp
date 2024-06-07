@@ -1,0 +1,53 @@
+/*contains the actual buttons*/
+.button-container {
+  position: relative;
+  margin: 10px;
+  border-radius: 1.3125rem;
+
+}
+
+
+/*Int the menu and endpoints makes the pink cubes*/
+.backgroundcubes {
+  position: relative;
+  color: black;
+  width: 131px;
+  height: 125px;
+  background-color: #FF6884;
+  border-radius: 21px;
+  font-family: 'Lalezar', cursive;
+  overflow: hidden;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 10px 10px ;
+  z-index: 1;
+
+}
+  
+.MenupicContainer{
+  overflow: visible;
+  position: relative;
+  display: flex;
+
+}
+
+.MenuPics {
+  position: absolute;
+  max-width: 1000%;
+  width: 125%;
+  overflow: visible;
+  contain: visible;
+
+}
+
+.selectortextoffset {
+  position: absolute;
+  top: -0.1em;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  font-size: 32px;
+  font-family: 'Lalezar', cursive;
+  line-height: 32px;
+}
+
+

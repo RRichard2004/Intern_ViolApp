@@ -1,0 +1,130 @@
+ion-page{
+  overflow: visible;
+
+}
+/*sets the background*/
+ion-content {
+  --background: transparent;
+  --ion-background-color: transparent;
+  background-image: url('../public/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: 'Lalezar', cursive;
+  --overflow: visible;
+
+}
+
+/*its centers the elements inside the container*/
+.centeringelementsdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: visible;
+}
+
+/*Its inside the language selector and the home pages*/
+.bigbutton {
+  flex-shrink: 0;
+  border-radius: 2.8125rem;
+  background: #FF6884;
+  color: #2F2E41;
+  text-align: center;
+  font-family: Lalezar;
+  font-size: 3rem;
+  box-sizing: 70px;
+  height: 70px;
+  max-height: 70px;
+  min-height: 70px;
+  width: 90%;
+  overflow: hidden;
+  z-index: 2;
+}
+
+/*In the language selector pushes the two buttons apart*/
+.languageselectorbutton {
+  margin: 50px;
+}
+
+/*sets the home button, and its pic*/
+.custombackbutton {
+  --background: transparent;
+  --ion-background-color: transparent;
+  background-image: url('../public/Back.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  margin-top: 5px;
+  width: 70px;
+  overflow: hidden;
+  height: 64px;
+
+}
+
+/*Its mostly used for the current placeholders*/
+.list-item {
+  border: none;
+  box-shadow: none;
+  border-radius: 1.5625rem;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.625rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*UNUSED*/
+.gridfooterimg{
+  position: absolute;
+  transform: translate(50px, -50px);
+}
+/*UNUSED*/
+.customhomepagegrid {
+  justify-self: center;
+  /**/
+
+}
+/*UNUSED*/
+.documents-grid{
+  height: 30vh;
+}
+/*UNUSED*/
+.centering-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+}
+/*UNUSED*/
+.homepics {
+  text-align: center;
+  margin-top: 30; /* Default margin-top */
+
+  @media (max-width: 700) {
+    max-width: 80%;
+    margin-top: 10%;
+  }
+}
+/*UNUSED*/
+.sizemanipulate36{
+  font-size: 36px;
+  color: #FFF9F9;
+  margin-top: -25px;
+}
+.sizemanupulate64{
+  font-size: 64px;
+  color: #E6E6E6;
+}

@@ -1,0 +1,35 @@
+.contact-list-container{
+    position: relative;
+    border-radius: 20px;
+    width: 100%;
+    display:flex; 
+    flex-direction: column; 
+    font-family: 'Lalezar' !important;
+    margin-bottom: 5px;
+}
+.contact-list-item{
+    background-color: #ffa0b2;
+    border-radius: 20px;
+    border: 0.125rem solid black;
+    margin-bottom: 5px;
+    font-family: 'Lalezar' !important;
+}
+
+.contact-custom-alert .alert-wrapper{
+    border-radius: 20px;
+    background-color: #ffa0b2;
+    margin: 5px;
+    font-family: Lalezar;
+}
+.alert-button-inner{
+    color: black;
+    font-family: Lalezar;
+}
+.alert-title{
+    justify-content: center;
+    align-items: center;
+}
+#alert-45-msg{
+    color: black;
+    font-family: Lalezar;
+}

@@ -1,0 +1,19 @@
+/*On the homepage it sets the sizes of the pic*/
+.homepics {
+    max-width: 18.75rem;
+    text-align: center;
+  }
+  /*On the home page sets the properties of the images*/
+.footerimg {
+    position: relative;
+    object-fit: contain;
+    width: 100%;
+    height: 37px;
+  }
+  
+  /*Containst the pics in the home menu*/
+  .gridfooterparent{
+    position: absolute;
+    width: 90%;
+    bottom: 10px;
+  }
