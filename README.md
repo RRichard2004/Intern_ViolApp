@@ -3,7 +3,7 @@ md
 
 ## 2 Week Intern Project
 
-This project is a 2-week intern project.
+This project is a 2-week intern project, developed together with its [counterpart.]([https://pages.github.com/](https://github.com/RRichard2004/Intern_EduApp))
 
 ## Key Features & Benefits
 
